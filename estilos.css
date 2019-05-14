@@ -1,0 +1,477 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+body
+{
+	font-family: 'Montserrat', sans-serif;
+}
+a
+{
+	text-decoration: none;
+}
+
+/* header --------------------------------------------------------- */
+
+.cabeza{
+    background-image:url(img/portada.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+}
+.margen-interno{
+    background-color: rgba(0,0,0,0.5);
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 14px;
+    font-weight: inherit;
+    
+}
+.logo{
+    
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo a{
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+}
+.nav{
+    
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-weight: inherit;
+    font-size: 12px;
+    
+}
+.nav a{
+    color: white;
+}
+.social{
+    
+    width: 10%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.social i{
+    color: white;
+}
+
+.caja-text-princi{
+    
+    width: 100%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cajilla-real{
+  
+    width: 60%;
+    height: 70%;
+    color: white;
+    font-weight: inherit;
+}
+.titulo-principal{
+    
+    width: 100%;
+    height: 50%;
+    font-size: 37px;
+    font-weight: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.texto-principal{
+    
+    width: 100%;
+    height: 30%;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: inherit;
+}
+.boton-principal{
+    
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boton-principal a{
+    background-color: rgba(0,0,0,0.5);
+    width: 20%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    color: white;
+}
+
+/*  Section 1 -------------------------------------------- */
+.section1{
+    background-image:url(img/pergamino.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.caja-sec1{
+    
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.art-cakes{
+  
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.caja-art-cake{
+   
+    width: 80%;
+    height: 80%; 
+}
+.box1{
+    
+    width: 100%;
+    height: 20%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    columns: rgb(68,68,68);
+}
+.box1 p{
+    font-size: 11px;
+    color: rgb(147,106,76);
+}
+.box2{
+    
+    width: 100%;
+    height: 20%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+}
+.box3{
+  
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box4{
+    
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box5{
+    
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Dancing Script', cursive;
+    color: rgb(147,106,76);
+    font-size: 25px;
+    text-align: center;
+}
+
+.galeri-cakes{
+   
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.galeri-cakes img{
+    width: 90%;
+    height: auto;
+}
+
+/*  Section 2 ..................................................... */
+
+.section2{
+    background-image:url(img/tenedor.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 600px;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.caja-sec2{
+    background-image:url(img/hot-cake.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 70%;
+    height: 80%;
+    z-index: 2;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 60px;
+}
+.caja-ready{
+    background: url(img/ready.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 20%;
+    height: 40%;
+    z-index: 1;
+    margin-top: -40px;
+    margin-right: -70px;
+}
+.doblado{
+   
+    width: 70%;
+    height: 10%;
+}
+.dentro-doblado{
+    background: white;
+    width: 5.2%;
+    height: 87%;
+    margin-top: -52px;
+}
+
+/* Section 3 --------------------------------------------------------- */
+
+.section3{
+    background-image: url(img/ingre.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: space-around;
+}
+.ofertas{
+    background-color: rgba(0,0,0,0.5);
+    width: 30%;
+    height: 100%;
+}
+.ofe{
+   
+    width: 100%;
+    height: 10%;
+}
+.ofe1{
+    
+    width: 100%;
+    height: 20%;
+    color: rgb(188,148,129);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+.ofe1 h2{
+    color: white;
+    font-size: 35px;
+    font-style: italic;
+}
+.ofe2{
+   
+    width: 100%;
+    height: 20%;
+    color: rgb(181,177,171);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+
+}
+.ofe2 h3{
+    color: white;
+    font-size: 22px;
+    font-style: italic;
+}
+
+.money{
+color:rgb(215,186,127);
+font-size: 21px;
+}
+
+.cartita{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cartita img{
+    width: 90%;
+    cursor: pointer;
+}
+
+/*  container foot ............................. */
+
+.container-foot{
+    background: rgb(243, 241, 233);
+    width: 100%;
+    height: 900px;
+}
+.title-foot{
+    background-image: fuchsia;
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+/* .caja-titl{
+    background-image: url(img/chef.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 11px;
+    /* color:rgb(215,186,127); 
+    color: aqua;
+    border-radius: 20px;
+} */
+
+.caja-titl h2{
+    font-size: 30px;
+    font-style: italic;
+    /* color: rgb(68,66,60); */
+    color: white;
+}
+.midle-foot{
+    
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: row;
+}
+.comida1{
+   
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.comida1 img{
+    width: 60%;
+    height: auto;
+}
+.comida2{
+    
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -50px;
+}
+.comida2 img{
+    width: 60%;
+    height: auto;
+}
+.menu{
+  
+    width: 100%;
+    height: 20%;  
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.space1{
+    
+    width: 40%;
+    height: 40%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 12px;
+    border-top: 1px solid rgb(194,190,186);
+    border-bottom: 1px solid rgb(194,190,186);
+   
+}
+
+.space2{
+   
+    width: 20%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+}
+.space3{
+   
+    width: 40%;
+    height: 40%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 12px;
+    border-top: 1px solid rgb(194,190,186);
+    border-bottom: 1px solid rgb(194,190,186);
+}
+
+.space1 a{
+    color: black;
+    font-style: italic;
+    text-decoration: none;
+}
+
+.space3 a{
+    color: black;
+    font-style: italic;
+    text-decoration: none;
+}
